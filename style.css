@@ -1,0 +1,269 @@
+.photoprof{
+    width: 20%;
+    height: 10%;
+}
+
+.img1{
+    width: 65%;
+    height: 65%;
+}
+
+.img2{
+    width: 25%;
+    height: 10%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family:'poppin';
+}
+
+header{
+    min-height: 120vh;
+    width: 100%;
+    background-image: linear-gradient(#ffdede, #d4f1f7);
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar{
+    height: 5rem;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar.sticky{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(57, 73, 68);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999999;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo span{
+    font-size: 2rem;
+    color: black;
+    font-weight: 800;
+}
+
+.logo img{
+    height: 60px;
+    width: 60px;
+}
+
+nav{
+    width: 50%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li{
+    position: relative;
+    padding: 0;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 16px;
+}
+
+.navbar.sticky ul li a{
+    color: white;
+}
+
+nav ul li .active{
+    border-bottom: 3px solid aliceblue;
+}
+
+nav ul li:hover{
+    border-bottom: 2px solid aliceblue;
+}
+
+.navbar.sticky ul li:hover{
+    border-bottom: 1px solid aliceblue;
+}
+
+.btn{
+    padding: 8px 15px;
+    border-radius: 12px;
+    background-color: rgb(1, 119, 223);
+    font-size: 15px;
+    color: azure;
+    font-weight: 700;
+    border: none;
+    text-align: center;
+}
+
+.btn:hover{
+    background-color: black;
+    color: rgb(1, 119, 223);
+}
+
+.navbar.sticky .btn{
+    background-color: black;
+}
+
+.btn i{
+    margin-left: 10px;
+}
+
+.menu-bar{
+    height: 50px;
+    width: 50px;
+    padding-top: 8px;
+    align-items: center;
+    outline: 1 px solid aliceblue;
+    display: none;
+}
+
+.menu-bar i{
+    font-size: 2.3rem;
+}
+
+.content{
+    margin: 2rem 0;
+    padding: 2rem 0;
+}
+
+.container{
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading{
+    width: 50%;
+}
+
+.content .heading h1{
+    font-size: 4rem;
+    color: rgb(5, 5, 4);
+}
+
+.content h4{
+    font-size: 2rem;
+    color: rgb(6, 126, 231);
+    margin-bottom: 15px;
+}
+
+.content h2{
+    font-size: 5rem;
+    color: rgb(7, 7, 7)
+}
+
+.content p{
+    font-size: 18px;
+    color: black;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.content .heading .btn{
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.content .headerimg{
+    width: 75%;
+    border-radius: 50%;
+}
+
+.content .headerimg .img1{
+    width: 50%;
+    border-radius: 50%;
+}
+
+.content .headerimg .img2{
+    width: 12%;
+    border-radius: 50%;
+}
+
+.content .headerimg .img3{
+    width: 15%;
+    border-radius: 100%;
+}
+
+.content .headerimg .img4{
+    width: 15%;
+    border-radius: 100%;
+}
+
+.content .headerimg .img2{
+    position: absolute;
+    top: 32%;
+    left: 60%;
+    width: 10%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20%;
+    animation: updownphotoshop 4s infinite;
+}
+
+.content .headerimg .img3{
+    position: absolute;
+    top: 32%;
+    left: 40%;
+    width: 10%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20%;
+    animation: updownai 4s infinite;
+}
+
+.content .headerimg .img4{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    width: 10%;
+    padding: 20px;
+    background-color: white;
+    animation: diamond 4s infinite;
+}
+
+@keyframes updownphotoshop {
+    0%,
+    100% {
+        transform: translate(-1px, -1px);
+    }
+    50%{
+        transform: translate(-10px, -10px);
+    }
+}
+
+@keyframes updownai {
+    0%,
+    100% {
+        transform: translate(-1px, -1px);
+    }
+    50%{
+        transform: translate(-10px, -10px);
+    }
+}
+
+@keyframes diamond {
+    0%,
+    100% {
+        transform: translate(-1px, -1px);
+    }
+    50%{
+        transform: translate(-10px, -10px);
+    }
+}
