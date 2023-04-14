@@ -1,15 +1,15 @@
 .photoprof{
-    width: 20%;
+    width: 10%;
     height: 10%;
 }
 
 .img1{
-    width: 65%;
-    height: 65%;
+    width: 100%;
+    height: 100%;
 }
 
 .img2{
-    width: 25%;
+    width: 55%;
     height: 10%;
 }
 
@@ -188,28 +188,48 @@ nav ul li:hover{
 
 .content .headerimg .img1{
     width: 50%;
-    border-radius: 50%;
+    height: 50%;
+    border-radius: 75%;
 }
 
 .content .headerimg .img2{
-    width: 12%;
-    border-radius: 50%;
+    width: 50%;
+    height: 12%;
+    border-radius: 75%;
 }
 
 .content .headerimg .img3{
-    width: 15%;
-    border-radius: 100%;
+    width: 20%;
+    height: 15%;
+    border-radius: 25%;
 }
 
 .content .headerimg .img4{
     width: 15%;
-    border-radius: 100%;
+    height: 12%;
+    border-radius: 25%;
+}
+
+.content .headerimg .img5{
+    width: 10%;
+    height: 15%;
+    border-radius: 25%;
+}
+
+.content .headerimg .img1{
+    position: absolute;
+    top: 5%;
+    left: 45%;
+    width: 33%;
+    padding: 20px;
+    background-color: white;
+    animation: diamond 4s infinite;
 }
 
 .content .headerimg .img2{
     position: absolute;
-    top: 32%;
-    left: 60%;
+    top: 25%;
+    left: 72%;
     width: 10%;
     padding: 20px;
     background-color: white;
@@ -219,8 +239,8 @@ nav ul li:hover{
 
 .content .headerimg .img3{
     position: absolute;
-    top: 32%;
-    left: 40%;
+    top: 24%;
+    left: 42%;
     width: 10%;
     padding: 20px;
     background-color: white;
@@ -230,9 +250,18 @@ nav ul li:hover{
 
 .content .headerimg .img4{
     position: absolute;
-    top: 5%;
-    left: 50%;
+    top: 2%;
+    left: 56%;
     width: 10%;
+    padding: 20px;
+    background-color: white;
+    animation: diamond 4s infinite;
+}
+
+.content .headerimg .img5{
+    position: absolute;
+    top: 47%;
+    left: 56%;
     padding: 20px;
     background-color: white;
     animation: diamond 4s infinite;
