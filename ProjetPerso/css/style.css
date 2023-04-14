@@ -1,0 +1,170 @@
+body {
+    background-color: darkcyan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    color: black;
+
+}
+
+.hr {
+    font-size: large;
+}
+
+.projet1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+}
+
+.projet2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder;
+    background-color: black;
+    color: white;
+    border: 10%;
+    width: 150px;
+    height: 50px;
+}
+
+.projet3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder;
+    background-color: black;
+    color: white;
+    border: 10%;
+    width: 150px;
+    height: 50px;
+}
+
+.projet4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder;
+    background-color: black;
+    color: white;
+    border: 10%;
+    width: 150px;
+    height: 50px;
+}
+
+.projet5 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+}
+
+.projet6 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+}
+
+.projet7 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+}
+
+.projet8 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+}
+
+.projet9 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder;
+    background-color: black;
+    color: white;
+    border: 10%;
+    width: 150px;
+    height: 50px;
+}
+
+.ligne1 {
+    border-top: 100px;
+    border: 10px solid black;
+    border-width: 30px  black;
+}
+
+.h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size:larger;
+}
+
+.entete {
+    text-align:center;
+}
+
+.lignentete {
+    border-top: 100px;
+    border: 10px solid black;
+    border-width: 30px  black;
+}
+
+.linkpage {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.titre2 {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size:larger;
+
+}
+
+.menuderoulantcontent {
+    display: none;
+    position: absolute;
+    z-index: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size:larger;
+  }
+  
+  .menuderoulant:hover .menuderoulantcontent {
+    display: block;
+    background-color:black;
+    border-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size:larger;
+    color:white;
+  }
+  
+  .menuderoulantbtn {
+    border-top: 100px;
+    background-color:black;
+    border:10px solid black;
+    border-width: 30px  black;
+    color:white;
+    padding: 10px 20px;
+    font-family: 'Courier New', Courier, monospace;   
+    font-size: larger;
+    font-weight: bolder;
+}
+  
+  .menuderoulant:hover .menuderoulantbtn {
+    background-color:black;
+    border-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size:larger;
+  }
+  

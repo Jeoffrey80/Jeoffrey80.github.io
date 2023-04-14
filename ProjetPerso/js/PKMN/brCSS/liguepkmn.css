@@ -1,0 +1,36 @@
+body {
+    background-image: url('/ProjetPerso/img/ligueindigo2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .bro {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder;
+    background-color: black;
+    color: white;
+    border: 10%;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    float: right;
+  }
+
+  .hr {
+    font-size:larger;
+    color: black;
+    border: 10%;
+    width: 15px;
+}
+
+.ligne1 {
+    border-top: 100px;
+    border: 10px solid black;
+    border-width: 30px  black;
+  }
+
+  .liguekanto {
+    text-align: center;
+    background-color:bisque;
+  }

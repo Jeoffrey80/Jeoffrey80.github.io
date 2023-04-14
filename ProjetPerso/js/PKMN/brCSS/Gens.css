@@ -1,0 +1,51 @@
+body {
+    background-image: url('/ProjetPerso/img/Gen1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .br {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder;
+    background-color: black;
+    color: white;
+    border: 10%;
+    width: 150px;
+    height: 50px;
+  }
+
+  .jaune {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder;
+    background-color: black;
+    color: white;
+    border: 10%;
+    width: 150px;
+    height: 50px;
+  }
+
+  .choixversion{
+        border-top: 100px;
+        border: 10px solid black;
+        border-width: 30px  black;
+        background-attachment: fixed;
+  }
+
+  .linkpage {
+    text-align: center;
+    background-color:bisque;
+  }
+
+  .linktitre {
+        border-top: 100px;
+        border: 10px solid black;
+        border-width: 30px  black;
+        background-attachment: fixed;
+  }
+
+  .entetitre{
+    text-align: center;
+    background-color:bisque;
+  }
+  

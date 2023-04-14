@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/ProjetPerso/css/jp.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="row justify-content-center mt-5">
+      <header>
+        Le Juste Prix
+      </header>
+    </div>
+
+    <!-- Formulaire -->
+    <div class="row justify-content-center mt-5 mb-4">
+      <div class="col-lg-8">
+        <div class="bg-light p-5 shadow">
+
+          <form id="formulaire">
+            <div class="row">
+              <div class="col">
+                <input id="prix" class="form-control" placeholder="Devinez le prix ! (entre 0 et 1 000)" />
+              </div>
+              <button type="submit" class="btn btn-primary">Deviner</button>
+              <button onclick="location.reload()">Recharger la page</button><br><br>
+              <a href="/ProjetPerso/js/index.html"><input type="button" class="retour" id="retour" name="retour"
+                  value="retour à la page d'acceuil">
+              </a>
+
+            </div>
+            <small class="text-danger">Vous devez rentrer un nombre.</small>
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Instructions -->
+    <div class="row justify-content-center">
+      <div id="instructions" class="col-lg-8"></div>
+    </div>
+
+  </div>
+  <script>
+
+
+    // Etape 1 - Sélectionner nos éléments
+    const form = document.querySelector('#formulaire');
+    const input = document.querySelector('#prix');
+    const error = document.querySelector('small');
+    const instructions = document.querySelector('#instructions');
+    let trials = 0;
+    let choosedNumber;
+
+    // Etape 2 - Cacher l'erreur
+    error.style.display = 'none';
+
+    // Etape 3 - Générer un nombre aléatoire
+    function getRandomInt(max) {
+      return Math.floor(Math.random() * Math.floor(max));
+    }
+
+    const randomNumber = getRandomInt(1000);
+
+    // Etape 6 - Créer la fonction vérifier
+    function check(number) {
+      let instruction = document.createElement('div');
+      instruction.className = 'instruction';
+
+      if (number < randomNumber) {
+        instruction.classList.add('plus');
+        instruction.innerHTML = `#${trials} (${choosedNumber}) c'est plus`;
+      } else if (number > randomNumber) {
+        instruction.classList.add('moins');
+        instruction.innerHTML = `#${trials} (${choosedNumber}) c'est moins`;
+      } else {
+        instruction.classList.add('fini');
+        instruction.innerHTML = `#${trials} (${choosedNumber}) c'est fini, vous avez gagné en ${trials} coups`;
+        input.disabled = true;
+      }
+      instructions.prepend(instruction);
+    }
+
+    // Etape 4 - Vérifier que l'utilisateur donne bien un nombre
+    input.addEventListener('keyup', (e) => {
+      if (isNaN(input.value)) {
+        error.style.display = 'inline-block';
+        input.style.borderColor = 'red';
+      } else {
+        error.style.display = 'none';
+        input.style.borderColor = 'black';
+      }
+    });
+
+    // Etape 5 - Agir à l'envoi du formulaire
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      if (isNaN(input.value) || !input.value) {
+        error.style.display = 'inline-block';
+        input.style.borderColor = 'red';
+      } else {
+        trials++
+        choosedNumber = input.value;
+        check(Number(choosedNumber));
+        input.value = '';
+      }
+    });
+
+  </script>
+</body>
+
+</html>

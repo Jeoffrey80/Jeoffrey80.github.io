@@ -1,0 +1,93 @@
+body {
+    background-image: url('/ProjetPerso/img/bluered.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .presentationdiv {
+    text-align: center;
+    background-color:bisque;
+  }
+
+  .presentationligne {
+    border-top: 100px;
+    border: 10px solid black;
+    border-width: 30px  black;
+    background-attachment: fixed;
+  }
+
+  .choix1 {
+    text-align: left;
+    background-position: 100px;
+
+  }
+
+  @media screen and(max-width:900px) {
+    .gauche {
+
+        position: relative;
+        width: 100%;
+     }
+  
+     .Milieu {
+        /* colonne de droite */
+        display: none;
+        padding: 0px 10px;
+  
+     }
+  }
+
+  @media screen and (min-width: 768px) {
+
+    /* div post sur pc */
+    .gauche {
+ 
+       position: relative;
+       max-width: 100%;
+       width: 80%;
+    }
+ 
+ }
+
+  .Milieu{
+    /* colonne de droite */
+    position: relative;
+    padding-left: 4px;
+    /*margin: 16px 1px;*/
+    width: 30%;
+    border: 1px transparent;
+    padding-right: 10%;
+    background-color: bisque;
+ 
+ }
+
+
+ .choix1 {
+    display: flex;
+    max-width: 100%;
+    margin: 2px 2px;
+ }
+
+ .gauche {
+        /* colonne de droite */
+        position: relative;
+        padding-left: 4px;
+        /*margin: 16px 1px;*/
+        width: 20%;
+        border: 1px transparent;
+        padding-right: 10%;
+        background-color: bisque;
+        
+ }
+
+ .droite {
+    position: relative;
+    padding-left: 4px;
+    width: 30%;
+    border:1px transparent;
+    padding-right: 10%;
+    background-color: bisque;
+ }
+ a {
+    color:black;
+ }
