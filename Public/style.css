@@ -1,0 +1,15 @@
+/* CSS personnalisé */
+.navbar-custom {
+    background-color: #000000; /* Couleur d'arrière-plan de la navbar */
+    color: #ffffff; /* Couleur du texte de la navbar */
+}
+
+.couleur-navbar{
+    color:aliceblue !important;
+}
+
+.btn-connexion {
+    background-color: #ff0000; /* Rouge */
+    color: #ffffff !important; /* Texte en blanc */
+    font-weight: bold; /* Texte en gras */
+}
