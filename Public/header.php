@@ -17,16 +17,16 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active couleur-navbar" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active couleur-navbar" aria-current="page" href="#"><b>Listes des jeux</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link couleur-navbar" href="#">Features</a>
+                        <a class="nav-link couleur-navbar" href="#"><b>Listes de mangas</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link couleur-navbar" href="#">Pricing</a>
+                        <a class="nav-link couleur-navbar" href="#"><b>Ajouts/Suppressions</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link couleur-navbar">Disabled</a>
+                        <a class="nav-link couleur-navbar"><b>Espace Yu-Gi-Oh le jeux de cartes</b></a>
                     </li>
                 </ul>
             </div>
