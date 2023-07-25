@@ -1,4 +1,23 @@
-/* CSS personnalisé */
+/* style.css */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Empêche le footer de chevaucher le contenu si la page est plus courte */
+    margin: 0; /* Enlever les marges par défaut */
+}
+
+.main-content {
+    flex: 1; /* Fait en sorte que le contenu principal prenne toute la hauteur disponible */
+}
+
+/* style.css */
+.footer {
+    background-color: #000000; /* Couleur de fond du footer (peut être personnalisée) */
+    padding: 1px; /* Ajuste l'espace interne pour le contenu du footer */
+    margin-top: -10px; /* Réduit l'espace entre le contenu du footer et le bas de la page */
+}
+
+
 .navbar-custom {
     background-color: #000000; /* Couleur d'arrière-plan de la navbar */
     color: #ffffff; /* Couleur du texte de la navbar */
@@ -13,3 +32,44 @@
     color: #ffffff !important; /* Texte en blanc */
     font-weight: bold; /* Texte en gras */
 }
+
+/* style.css */
+.modal {
+    display: none; /* Cachée par défaut */
+    position: fixed;
+    top: 10;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fond semi-transparent */
+}
+
+.modal-content {
+    background-color: #fff;
+    width: 60%;
+    max-width: 400px;
+    margin: 100px auto; /* Centrer la fenêtre modale */
+    padding: 20px;
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #f00;
+}
+
+/* style.css */
+.btn-change-color {
+    color: #ffffff; /* Texte en blanc */
+    background-color: #000000; /* Fond noir */
+    transition: color 0.3s ease; /* Transition pour la couleur du texte */
+}
+
+/* Texte en rouge lors du survol */
+.btn-change-color:hover {
+    color: #ff0000; /* Texte en rouge */
+}
+

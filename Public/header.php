@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-custom">
@@ -23,7 +24,7 @@
                         <a class="nav-link couleur-navbar" href="#"><b>Listes de mangas</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link couleur-navbar" href="#"><b>Ajouts/Suppressions</b></a>
+                        <a class="nav-link couleur-navbar" href="ajoutsupp.php"><b>Ajouts/Suppressions</b></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link couleur-navbar"><b>Espace Yu-Gi-Oh le jeux de cartes</b></a>
@@ -38,7 +39,7 @@
             </ul>
         </div>
     </nav>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>

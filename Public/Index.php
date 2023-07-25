@@ -1,7 +1,16 @@
+<head>
+</head>
+    <body>
+        <?php
+        include 'header.php';
+        ?>
 
-<body>
-    <?php
-    include 'header.php';
-    ?>
-</body>
-</html>
+                <div class="main-content">
+                </div>   
+
+            <footer class=footer>
+                <?php
+                include 'footer.php';
+                ?>
+            </footer>
+    </body>
