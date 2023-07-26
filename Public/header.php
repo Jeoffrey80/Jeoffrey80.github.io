@@ -31,7 +31,9 @@
             <!-- Bouton "connexion" aligné à droite -->
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link btn btn-connexion" href="index.php">Connexion</a>
+                <form action="?logout" method="post">
+                  <input type="submit" value="Se déconnecter">
+                </form>
                 </li>
             </ul>
         </div>
