@@ -1,6 +1,6 @@
 <head>
 </head>
-    <body>
+    <body class="fondmanga">
     
                 <?php
                 include 'header.php';

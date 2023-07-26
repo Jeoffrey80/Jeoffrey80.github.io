@@ -6,6 +6,46 @@ body {
     margin: 0; /* Enlever les marges par défaut */
 }
 
+body.fondaccueil {
+    background-image: url("/Public/img/fondcaccueilsiteperso.jpg");
+    background-repeat: no-repeat;
+    /* Réglages supplémentaires pour le fond d'image */
+    background-size: cover;
+    background-position: center;
+}
+
+body.fondjv {
+    background-image: url("/Public/img/fondjv.webp");
+    background-repeat: no-repeat;
+    /* Réglages supplémentaires pour le fond d'image */
+    background-size: cover;
+    background-position: center;
+}
+
+body.fondmanga {
+    background-image: url("/Public/img/fondmanga.webp");
+    background-repeat: no-repeat;
+    /* Réglages supplémentaires pour le fond d'image */
+    background-size: cover;
+    background-position: center;
+}
+
+body.fondyugioh {
+    background-image: url("/Public/img/fondyugioh.jpg");
+    background-repeat: no-repeat;
+    /* Réglages supplémentaires pour le fond d'image */
+    background-size: cover;
+    background-position: center;
+}
+
+body.fondfeurmec {
+    background-image: url("/Public/img/feurmec.jpg");
+    background-repeat: no-repeat;
+    /* Réglages supplémentaires pour le fond d'image */
+    background-size: cover;
+    background-position: center;
+}
+
 .main-content {
     flex: 1; /* Fait en sorte que le contenu principal prenne toute la hauteur disponible */
 }
@@ -32,4 +72,5 @@ body {
     color: #ffffff !important; /* Texte en blanc */
     font-weight: bold; /* Texte en gras */
 }
+
 

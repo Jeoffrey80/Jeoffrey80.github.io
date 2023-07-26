@@ -11,30 +11,27 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-custom">
         <div class="container-fluid">
-            <a class="navbar-brand couleur-navbar" href="Index.php"><b>Site Perso</b></a>
+            <a class="navbar-brand couleur-navbar" href="index.php"><b>Site Perso</b></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active couleur-navbar" aria-current="page" href="#"><b>Listes des jeux</b></a>
+                        <a class="nav-link active couleur-navbar" aria-current="page" href="jv.php"><b>Jeux Vidéos</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link couleur-navbar" href="#"><b>Listes de mangas</b></a>
+                        <a class="nav-link couleur-navbar" href="mangas.php"><b>Mangas</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link couleur-navbar" href="ajoutsupp.php"><b>Ajouts/Suppressions</b></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link couleur-navbar"><b>Espace Yu-Gi-Oh le jeux de cartes</b></a>
+                        <a class="nav-link couleur-navbar" href="yugioh.php"><b>Espace Yu-Gi-Oh le jeux de cartes</b></a>
                     </li>
                 </ul>
             </div>
             <!-- Bouton "connexion" aligné à droite -->
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link btn btn-connexion" href="Index.php">Connexion</a>
+                    <a class="nav-link btn btn-connexion" href="index.php">Connexion</a>
                 </li>
             </ul>
         </div>
