@@ -24,7 +24,7 @@
             <li><a href="#" class="active">Services</a></li>
             <li><a href="#" class="active">Portfolio</a></li>
             <li><a href="#" class="active">Contact</a></li>
-            <li><a href="/ProjetPerso/js/index.html" class="active">Site Perso</a></li>
+            <li><a href="Public/Index.php" class="active">Site Perso</a></li>
         </ul>
     </nav>
     <button class="btn">Resume<i class="fa fa-arrow-down"></i></button>
