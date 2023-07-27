@@ -73,4 +73,16 @@ body.fondfeurmec {
     font-weight: bold; /* Texte en gras */
 }
 
+body {
+    text-align: center; /* Centrer le contenu de la page horizontalement */
+}
 
+.form-container {
+    display: flex;
+    justify-content: center; /* Centrer horizontalement le contenu de la div */
+}
+
+.form-wrapper {
+    text-align: left; /* Alignement du texte à gauche à l'intérieur de la div */
+    width: 400px; /* Ajustez la largeur de la div selon vos besoins */
+}

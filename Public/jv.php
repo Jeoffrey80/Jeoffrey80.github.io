@@ -26,7 +26,12 @@ if (isset($_GET["logout"])) {
                 include 'header.php';
                 ?>
                 <div class="main-content">
-
+                    <br>
+                    <!-- Boutons centrés -->
+                    <div style="text-align: center;">
+                        <a href="ajoutjv.php"><button>Ajouter un jeu vidéo</button></a>
+                        <a href="afficherjv.php"><button>Afficher les jeux vidéo</button></a>
+                    </div>
                 </div>   
 
             <footer class=footer>
