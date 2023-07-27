@@ -25,9 +25,7 @@ if (isset($_GET["logout"])) {
                 include 'header.php';
                 ?>
                 <div class="main-content">
-                <h2>Bienvenue sur le site, <?php echo $pseudo; ?> !</h2>
-                    <p>C'est votre page d'accueil personnalisée.</p>
-                    <p>Contenu de la page d'accueil...</p>
+                <h2 style='text-align:center'>Bienvenue sur le site, <?php echo $pseudo; ?> !</h2>
                 </div>   
 
             <footer class=footer>
