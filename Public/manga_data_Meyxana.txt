@@ -12,3 +12,17 @@ Nombre de volume: 41
 Nombre de Volume Lu: 41
 Manga fini: Non
 
+Nom du Manga: Tokyo Ghoul
+Type de Manga: Seinen
+Nom Maison D'édition: Glénat
+Nombre de volume: 14
+Nombre de Volume Lu: 14
+Manga fini: Oui
+
+Nom du Manga: Tokyo Ghoul:Re
+Type de Manga: Seinen
+Nom Maison D'édition: Glénat
+Nombre de volume: 16
+Nombre de Volume Lu: 16
+Manga fini: Oui
+
