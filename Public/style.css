@@ -46,6 +46,14 @@ body.fondfeurmec {
     background-position: center;
 }
 
+body.fondajoutmanga {
+    background-image: url("/Public/img/fondajoutmanga.jpg");
+    background-repeat: no-repeat;
+    /* Réglages supplémentaires pour le fond d'image */
+    background-size: cover;
+    background-position: center;
+}
+
 .main-content {
     flex: 1; /* Fait en sorte que le contenu principal prenne toute la hauteur disponible */
 }
@@ -90,4 +98,19 @@ body {
 .details-container {
     text-align: center;
     margin-top: 20px;
+}
+
+.fondajoutbeige{
+    background-color: beige;
+    padding: 20px 10px !important; /* Vous pouvez ajuster le padding selon vos préférences */
+}
+
+.fondbeige{
+    max-width: 500px; /* Vous pouvez ajuster la largeur selon vos préférences */
+    margin: 0 auto; /* Centrer le formulaire horizontalement */
+}
+
+.form-margins{
+    margin-left: 10px !important;
+    margin-right: 10px !important;
 }

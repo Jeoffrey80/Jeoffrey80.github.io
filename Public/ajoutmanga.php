@@ -48,15 +48,15 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 <head>
 </head>
-    <body>
+    <body class="fondajoutmanga">
     
                 <?php
                 include 'header.php';
                 ?>
-                <div class="main-content">
+                <div class="main-content fondbeige">
         <br>
-        <div class="form-container">
-            <div class="form-wrapper">
+        <div class="form-container fondajoutbeige">
+            <div class="form-wrapper fondbeige"style="max-width: 500px; margin: 0 auto; margin-left: 10px; margin-right: 10px;">
                 <h2>Ajouter un manga</h2>
                 <br>
                 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
