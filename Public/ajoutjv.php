@@ -91,6 +91,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     <option value="PS2">PlayStation 2</option>
                     <option value="PS3">PlayStation 3</option>
                     <option value="PS4">PlayStation 4</option>
+                    <option value="PS5">PlayStation 5</option>
+                    <option value="PsP">PsP</option>
+                    <option value="PsVita">PsVita</option>
                     <!-- Ajoutez d'autres consoles Sony ici si nécessaire -->
                 </optgroup>
                 <optgroup label="Microsoft">

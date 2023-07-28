@@ -16,7 +16,7 @@
             echo "Les mots de passe ne correspondent pas.";
         } else {
             // Concaténer les données en une chaîne pour l'enregistrement dans le fichier
-            $data = "Pseudo: " . $pseudo . "\n" . "Mot de passe: " . $password . "\n" . "Adresse email: " . $email . "\n";
+            "///////////////" . "\n" . $data = "Pseudo: " . $pseudo . "\n" . "Mot de passe: " . $password . "\n" . "Adresse email: " . $email . "\n" . "///////////////" . "\n" ;
 
             // Ouvrir le fichier en mode écriture et ajouter les données
             $file = fopen("data.txt", "a");

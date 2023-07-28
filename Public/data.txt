@@ -1,6 +1,8 @@
-Pseudo: Mayxana
-Mot de passe: azert
-Adresse email: totodutoto@toto.com
+Pseudo: Meyxana
+Mot de passe: admin
+Adresse email: meyxana80@gmail.com
+///////////////
 Pseudo: Mew
-Mot de passe: az1234
+Mot de passe: 123456
 Adresse email: mewmew80@gmail.com
+///////////////

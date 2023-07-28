@@ -1,0 +1,14 @@
+Nom du Manga: Gantz
+Type de Manga: Seinen
+Nom Maison D'édition: Tonkam
+Nombre de volume: 37
+Nombre de Volume Lu: 37
+Manga fini: Oui
+
+Nom du Manga: Berserk
+Type de Manga: Seinen
+Nom Maison D'édition: Glénat
+Nombre de volume: 41
+Nombre de Volume Lu: 41
+Manga fini: Non
+

@@ -26,8 +26,13 @@ if (isset($_GET["logout"])) {
                 include 'header.php';
                 ?>
                 <div class="main-content">
-
-                </div>   
+                    <br>
+                    <!-- Boutons centrés -->
+                    <div style="text-align: center;">
+                        <a href="ajoutmanga.php"><button>Ajouter un manga</button></a>
+                        <a href="affichermanga.php"><button>Afficher les mangas</button></a>
+                    </div>
+                </div>    
 
             <footer class=footer>
                 <?php
