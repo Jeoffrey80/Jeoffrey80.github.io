@@ -54,6 +54,14 @@ body.fondajoutmanga {
     background-position: center;
 }
 
+body.fondajoutjv {
+    background-image: url("/Public/img/fondajoutjv.jpeg");
+    background-repeat: no-repeat;
+    /* Réglages supplémentaires pour le fond d'image */
+    background-size: cover;
+    background-position: center;
+}
+
 .main-content {
     flex: 1; /* Fait en sorte que le contenu principal prenne toute la hauteur disponible */
 }

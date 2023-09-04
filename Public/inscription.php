@@ -15,19 +15,37 @@
         if ($password !== $confirm_password) {
             echo "Les mots de passe ne correspondent pas.";
         } else {
-            // Concaténer les données en une chaîne pour l'enregistrement dans le fichier
-            "///////////////" . "\n" . $data = "Pseudo: " . $pseudo . "\n" . "Mot de passe: " . $password . "\n" . "Adresse email: " . $email . "\n" . "///////////////" . "\n" ;
+            // Connexion à la base de données en utilisant PDO
+            $servername = "localhost"; // Remplacez par le nom de votre serveur
+            $username = "jeoffrey"; // Remplacez par votre nom d'utilisateur de la base de données
+            $password_db = "jojo123"; // Remplacez par votre mot de passe de la base de données
+            $dbname = "siteperso"; // Remplacez par le nom de votre base de données
 
-            // Ouvrir le fichier en mode écriture et ajouter les données
-            $file = fopen("data.txt", "a");
-            fwrite($file, $data);
-            fclose($file);
+            try {
+                $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password_db);
+                $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-            echo "Inscription réussie ! Les données ont été enregistrées dans le fichier data.txt.";
+                // Préparation de la requête d'insertion
+                $stmt = $conn->prepare("INSERT INTO infouser (pseudo, email, mdp) VALUES (:pseudo, :email, :mdp)");
+                $hashed_password = password_hash($password, PASSWORD_DEFAULT); // Hasher le mot de passe
 
-            // Redirection vers la page connexion.php après inscription réussie
-            header("Location: connexion.php");
-            exit(); // Assurez-vous d'utiliser exit() après une redirection pour terminer l'exécution du script
+                // Liaison des paramètres
+                $stmt->bindParam(':pseudo', $pseudo);
+                $stmt->bindParam(':email', $email);
+                $stmt->bindParam(':mdp', $hashed_password);
+
+                // Exécution de la requête
+                $stmt->execute();
+
+                echo "Inscription réussie !";
+
+                // Redirection vers la page de connexion après inscription réussie
+                header("Location: connexion.php");
+                exit(); // Assurez-vous d'utiliser exit() après une redirection pour terminer l'exécution du script
+
+            } catch (PDOException $e) {
+                echo "Erreur d'inscription : " . $e->getMessage();
+            }
         }
     }
     ?>
